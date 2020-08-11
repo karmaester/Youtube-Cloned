@@ -17,13 +17,30 @@ body {
   width: 114px;
 }
 
+.toggle {
+  justify-content: flex-start;
+  display: flex;
+}
+.search-form {
+  width: 70%;
+}
+.search input {
+  width: 85%;
+}
+
+.search button {
+}
 .container-nav {
+  display: flex;
   padding: 7px 30px 8px;
+}
+.sign-in {
+  color: blue;
 }
 
 .container {
   background-color: red;
-  width: 1000%;
+  width: 100%;
   float: left;
   height: 600px;
 }

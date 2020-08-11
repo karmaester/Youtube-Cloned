@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Cloned</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <nav class="navbar"> 
+    <nav class="navbar">
       <div class="container-nav">
         <div class="toggle">
-            <img class="logo-img" src="./images/youtube_logo.png" alt="">
+          <i class="fas fa-bars" style="font-size: 25px;"></i>
+          <img class="logo-img" src="./images/youtube_logo.png" alt="" />
         </div>
         <div class="search-form">
-
+          <form action="search" class="search">
+            <input type="text" placeholder="Search" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
         </div>
-        <div class="upload-button">
-
-        </div>
-        <div class="sign-in">
-
-        </div>
+        <div class="upload-button"><i class="fas fa-upload"></i></div>
+        <div class="sign-in"><button class="sign-in">Sign in</button></div>
       </div>
     </nav>
     <main class="main">

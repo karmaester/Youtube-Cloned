@@ -14,6 +14,10 @@ body {
   height: 50px;
 }
 
+.container-nav {
+  padding: 7px 30px 8px;
+}
+
 .container {
   background-color: red;
   width: 1000%;

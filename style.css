@@ -13,6 +13,9 @@ body {
   width: 100%;
   height: 50px;
 }
+.logo-img {
+  width: 114px;
+}
 
 .container-nav {
   padding: 7px 30px 8px;

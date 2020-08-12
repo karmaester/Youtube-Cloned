@@ -33,7 +33,7 @@
   width: 100%;
   padding: 15px;
   column-gap: 12px;
-  row-gap: 19px
+  row-gap: 19px;
 }
 
 .grid-item {
@@ -46,10 +46,11 @@
 }
 
 .img-video {
-  width: 178px;
+  width: 100%;
 }
 
- .video-chanel, .video-views{
+.video-chanel,
+.video-views {
   line-height: 5px;
   font-family: "Noto Sans JP", Roboto, arial, sans-serif;
 }
@@ -65,9 +66,9 @@
 }
 
 .video-chanel {
- color: #767676;
- font-size: 13px;
- margin-top: -6px;
+  color: #767676;
+  font-size: 13px;
+  margin-top: -6px;
 }
 
 .video-views {

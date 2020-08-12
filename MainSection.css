@@ -7,7 +7,7 @@
   margin-top: 10px;
   background-color: white;
   padding: 1% 3% 1% 3%;
-  font-family: 'Noto Sans JP', Roboto, arial, sans-serif;
+  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
   font-size: 20px;
 }
 
@@ -20,7 +20,12 @@ h2.title {
   display: flex;
 }
 
-.user-photo img{
+.cont {
+  justify-content: space-between;
+  display: flex;
+  width: 82%;
+}
+.user-photo img {
   width: 74%;
 }
 
@@ -38,7 +43,6 @@ p.user-name {
   border-radius: 4px 0 0 4px;
   border-style: solid;
   border-color: red;
-
 }
 
 .subs {
@@ -57,3 +61,26 @@ p.user-name {
   border-radius: 0 4px 4px 0;
 }
 
+.views {
+  color: #666666;
+  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
+  text-align: right;
+  font-size: 27px;
+  line-height: 24px;
+  justify-content: end;
+  display: flex;
+  align-items: flex-end;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  color: #808080;
+  font-size: x-large;
+}
+
+.actions span {
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: large;
+}

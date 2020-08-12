@@ -18,24 +18,37 @@ body {
 }
 
 .toggle {
-  justify-content: flex-start;
+  justify-content: space-between;
   display: flex;
+  width: 15%;
 }
 .search-form {
   width: 70%;
 }
 .search input {
   width: 85%;
+  height: 30px;
 }
 
 .search button {
+  height: 35px;
+  width: 35px;
 }
 .container-nav {
   display: flex;
   padding: 7px 30px 8px;
+  justify-content: space-between;
+  align-items: center;
 }
 .sign-in {
-  color: blue;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-weight: bold;
+  color: white;
+  background-color: #167ac6;
+  border: #167ac6;
+  border-radius: 3px;
+  height: 35px;
 }
 
 .container {

@@ -98,3 +98,7 @@ p.user-name {
   margin-right: 12px;
   font-size: large;
 }
+
+.cont-main {
+  overflow: hidden;
+}

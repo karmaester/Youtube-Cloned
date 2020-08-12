@@ -1,0 +1,12 @@
+.mainVideo {
+  width: 100%;
+  height: 80%;
+}
+
+.videoDescription {
+  margin-top: 10px;
+  background-color: white;
+  padding: 1% 3% 1% 3%;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 20px;
+}

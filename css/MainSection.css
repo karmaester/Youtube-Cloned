@@ -1,3 +1,7 @@
+.cont-main::after {
+  overflow: hidden;
+}
+
 .main {
   width: 70%;
   float: left;
@@ -38,6 +42,8 @@ h2.title {
 p.user-name {
   margin-top: 0px;
 }
+
+
 
 .subscribe {
   color: white;

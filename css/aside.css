@@ -2,7 +2,7 @@
   background-color: white;
   width: 29%;
   float: right;
-  height: 1200px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -74,4 +74,12 @@
 .video-views {
   color: #767676;
   font-size: 13px;
+}
+
+.showMoreAside {
+  color: #808080;
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
 }

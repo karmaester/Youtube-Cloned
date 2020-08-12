@@ -70,7 +70,6 @@ body {
 .container {
   width: 100%;
   float: left;
-  height: 600px;
 }
 
 .articles {
@@ -87,3 +86,4 @@ body {
   height: 1200px;
   margin-top: 20px;
 }
+

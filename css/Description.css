@@ -1,0 +1,31 @@
+.articles {
+  background-color: white;
+  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
+  width: 100%;
+  float: left;
+  margin-top: 15px;
+  height: auto;
+}
+
+.date {
+  font-size: 17px;
+  line-height: 14px;
+}
+
+.content {
+  padding: 5px 15px 0px 15px;
+}
+
+.info {
+  color: #333333;
+  font-size: 13;
+  text-align: justify;
+}
+
+.showMore {
+  text-align: center;
+  color: #333333;
+  font-size: 13;
+  margin-top: -3px;
+  cursor: pointer;
+}

@@ -29,11 +29,11 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 46% 47%;
   width: 100%;
-  height: 100%;
-  padding: 15px 15px 15px 15px;
-  column-gap: 20px;
+  padding: 15px;
+  column-gap: 12px;
+  row-gap: 19px
 }
 
 .grid-item {
@@ -43,4 +43,34 @@
 .lefters {
   display: flex;
   align-items: center;
+}
+
+.img-video {
+  width: 178px;
+}
+
+ .video-chanel, .video-views{
+  line-height: 5px;
+  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
+}
+
+.video-title {
+  font-size: 15px;
+  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
+  margin-top: -1px;
+  text-align: left;
+  font-weight: 600;
+  color: #333333;
+  line-height: 15px;
+}
+
+.video-chanel {
+ color: #767676;
+ font-size: 13px;
+ margin-top: -6px;
+}
+
+.video-views {
+  color: #767676;
+  font-size: 13px;
 }

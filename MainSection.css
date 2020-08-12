@@ -56,9 +56,11 @@ p.user-name {
   padding-left: 5px;
   padding-right: 5px;
   height: 31px;
-  border-color: lightgray;
+  border-color: lightgray lightgray lightgray transparent;
   border-style: solid;
   border-radius: 0 4px 4px 0;
+  line-height: 21px;
+  height: 27px;
 }
 
 .views {

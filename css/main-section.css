@@ -37,6 +37,7 @@ h2.title {
 }
 .user-photo img {
   width: 74%;
+  border-radius: 50%;
 }
 
 p.user-name {
@@ -101,4 +102,6 @@ p.user-name {
 
 .cont-main {
   overflow: hidden;
+  width: 87%;
+  margin: 0 auto;
 }

@@ -1,5 +1,5 @@
 .sidebar {
-  width: 29%;
+  width: 27%;
   float: right;
   height: auto;
   margin-top: 20px;
@@ -7,7 +7,6 @@
 
 .asideTop {
   justify-content: space-between;
-  padding: 15px 15px 15px 15px;
 }
 
 .fa-info-circle {

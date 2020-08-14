@@ -16,9 +16,7 @@
 /* Comment Section */
 .comments-section {
   float: left;
-  margin-top: 15px;
   height: auto;
-  padding: 3% 0
 }
 
 .comments-counter {
@@ -29,7 +27,7 @@
 }
 
 .comments-number {
-  width: 34%;
+  width: 27%;
   float: left;
  
 }
@@ -64,7 +62,7 @@
 .comment-input {
   border: none;
   border-bottom: 2px solid #d4cdcd;
-  width: 85%;
+  width: 92%;
   background-color: transparent;
   font-size: 14px;
   padding-bottom: 10px;

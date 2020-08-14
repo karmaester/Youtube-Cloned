@@ -20,10 +20,11 @@
   font-size: 20px;
 }
 
-h2.title {
+h1.title {
   font-weight: 500;
   color: #000000;
-  margin-top: 8px;
+  padding-top: 11px;
+  margin-top: 4px;
 }
 
 .user {
@@ -40,11 +41,9 @@ h2.title {
   border-radius: 50%;
 }
 
-p.user-name {
+.user-name {
   margin-top: 0px;
 }
-
-
 
 .subscribe {
   color: white;

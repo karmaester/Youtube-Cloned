@@ -1,5 +1,4 @@
 .articles {
-  background-color: white;
   float: left;
   margin-top: 15px;
   height: auto;
@@ -28,7 +27,6 @@
 }
 
 .loading {
-  background-color: white;
   float: left;
   margin-top: 15px;
   height: auto;

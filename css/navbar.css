@@ -21,28 +21,28 @@ body {
   width: 15%;
 }
 .search-form {
-  width: 70%;
+  width: 60%;
 }
 .search {
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .search input {
-  width: 100%;
-  height: 30px;
+  width: 70%;
+  height: 26px;
   font-size: 20px;
-  border-color: #b1b1b1;
+  border-color: #b1b1b178;
   border-style: solid;
 }
 
 .search button {
-  border-color: #b1b1b1;
-  height: 36px;
+  border-color: #b1b1b178;
+  height: 32px;
   width: 77px;
   cursor: pointer;
-  position: absolute;
   top: 0;
   right: -1%;
-  border-style: solid;
+  border-style: solid solid solid none;
 }
 .container-nav {
   display: flex;
@@ -65,11 +65,4 @@ body {
 .container {
   width: 100%;
   float: left;
-}
-
-.articles {
-  background-color: green;
-  width: 100%;
-  float: left;
-  height: 600px;
 }

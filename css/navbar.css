@@ -66,3 +66,14 @@ body {
   width: 100%;
   float: left;
 }
+
+.topIcons {
+  font-size: 20px;
+  color: #a7a7a7;
+}
+
+.topIconsLeft {
+  color: #606060;
+  font-size: 25px;
+  display: contents;
+}

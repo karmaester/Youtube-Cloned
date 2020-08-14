@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   padding: 15px 15px 15px 15px;
-  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
 }
 
 .fa-info-circle {
@@ -52,12 +51,10 @@
 .video-chanel,
 .video-views {
   line-height: 5px;
-  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
 }
 
 .video-title {
   font-size: 15px;
-  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
   margin-top: -1px;
   text-align: left;
   font-weight: 600;
@@ -81,5 +78,4 @@
   font-size: small;
   text-align: center;
   font-weight: bold;
-  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
 }

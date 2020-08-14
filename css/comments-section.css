@@ -1,3 +1,19 @@
+/* General for Comments */
+.mt-comments {
+  margin-top: 30px;
+}
+
+.mt-photo {
+  margin-top: 13px;
+}
+
+.color-light-gray {
+  color: #606060;
+}
+
+
+
+/* Comment Section */
 .comments-section {
   float: left;
   margin-top: 15px;
@@ -13,14 +29,22 @@
 }
 
 .comments-number {
-  width: 40%;
+  width: 34%;
   float: left;
+ 
 }
 
 .comments-sortby {
   width: 50%;
   float: left;
 }
+
+.comments-sortby i {
+  margin-right: 8px;
+  
+}
+
+/* Add comment section */
 .photo-comment{
   position: relative;
 }
@@ -33,7 +57,7 @@
 .user-photo__comment {
   border-radius: 50%;
   width: 48px;
-
+  float: left;
 
 }
 
@@ -46,11 +70,89 @@
   padding-bottom: 10px;
   position: absolute;
   top: 14%;
-  left: 8%;
+  left: 73px;
 }
 
 /* comments-publics */
 
-.comments-publics {
 
+.pinned {
+
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.pinned i{
+  margin-right: 7px;
+}
+
+.pinned::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.username {
+  font-weight: 600;
+}
+
+
+
+.username span{
+ 
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+span.bg-gray {
+  background-color: #606060;
+  color: #ffffff;
+  width: 100px;
+  padding: 4px;
+  border-radius: 12px;
+  margin-left: 0px;
+}
+
+.comment-text {
+  width: 90%;
+  float:left;
+  color: #030303;
+  font-size: 14px;
+ 
+}
+
+.comment-text p{
+  margin: 7px 25px;
+}
+.read-more {
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 5px;
+    display: block;
+}
+.comment-thumbs {
+  
+  margin: 15px 25px 0 25px;
+}
+
+.comment-thumbs i {
+  margin-right: 20px;
+  color:#909090
+}
+
+.comment-thumbs span {
+  margin-left:8px;
+  font-family: Roboto, arial, sans-serif;
+  font-weight: 300;
+}
+
+.comment-thumbs .rep {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+p.more-replies {
+  color:#065fd4;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
 }

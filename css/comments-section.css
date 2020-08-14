@@ -1,0 +1,56 @@
+.comments-section {
+  float: left;
+  margin-top: 15px;
+  height: auto;
+  padding: 3% 0
+}
+
+.comments-counter {
+  display: inline-block;
+  width: 60%;
+  color: #030303;
+  font-size: 16px;
+}
+
+.comments-number {
+  width: 40%;
+  float: left;
+}
+
+.comments-sortby {
+  width: 50%;
+  float: left;
+}
+.photo-comment{
+  position: relative;
+}
+
+.photo-comment::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.user-photo__comment {
+  border-radius: 50%;
+  width: 48px;
+
+
+}
+
+.comment-input {
+  border: none;
+  border-bottom: 2px solid #d4cdcd;
+  width: 85%;
+  background-color: transparent;
+  font-size: 14px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 14%;
+  left: 8%;
+}
+
+/* comments-publics */
+
+.comments-publics {
+
+}

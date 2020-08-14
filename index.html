@@ -1,109 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Cloned</title>
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/main-section.css" />
+    <link rel="stylesheet" href="./css/aside.css" />
+    <link rel="stylesheet" href="./css/description.css" />
+    <link rel="stylesheet" href="./css/comments-section.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Youtube Cloned</title>
-  <link rel="stylesheet" href="./css/navbar.css" />
-  <link rel="stylesheet" href="./css/main-section.css" />
-  <link rel="stylesheet" href="./css/aside.css" />
-  <link rel="stylesheet" href="./css/description.css" />
-  <link rel="stylesheet" href="./css/comments-section.css">
-  <link rel="stylesheet" href="./css/footer.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <nav class="navbar">
+      <div class="container-nav">
+        <div class="toggle point">
+          <i
+            class="fas fa-bars"
+            style="font-size: 25px; margin-top: 5px; color: #808080;"
+          ></i>
+          <img
+            class="logo-img point"
+            src="./images/youtube_logo.png"
+            alt="Youtube logo"
+          />
+        </div>
+        <div class="search-form">
+          <form action="search" class="search">
+            <input type="text" placeholder="Search" />
+            <button type="submit" class="point">
+              <i
+                class="fas fa-search"
+                style="font-size: 20px; color: #a7a7a7;"
+              ></i>
+            </button>
+          </form>
+        </div>
+        <div class="upload-button point">
+          <i class="fas fa-upload" style="font-size: 25px; color: #808080;"></i>
+        </div>
+        <div class="sign-in point">
+          <button class="sign-in">Sign in</button>
+        </div>
+      </div>
+    </nav>
+    <div class="cont-main">
+      <main class="main">
+        <section class="container">
+          <iframe
+            src="https://www.youtube.com/embed/rhFK5_Nx9xY"
+            class="mainVideo point wide"
+          ></iframe>
 
-<body>
-  <nav class="navbar">
-    <div class="container-nav">
-      <div class="toggle point">
-        <i class="fas fa-bars" style="font-size: 25px; margin-top: 5px; color: #808080;"></i>
-        <img class="logo-img point" src="./images/youtube_logo.png" alt="Youtube logo" />
-      </div>
-      <div class="search-form">
-        <form action="search" class="search">
-          <input type="text" placeholder="Search" />
-          <button type="submit" class="point">
-            <i class="fas fa-search" style="font-size: 20px; color: #a7a7a7;"></i>
-          </button>
-        </form>
-      </div>
-      <div class="upload-button point">
-        <i class="fas fa-upload" style="font-size: 25px; color: #808080;"></i>
-      </div>
-      <div class="sign-in point">
-        <button class="sign-in">Sign in</button>
-      </div>
-    </div>
-  </nav>
-  <div class="cont-main">
-    <main class="main">
-      <section class="container">
-        <iframe src="https://www.youtube.com/embed/rhFK5_Nx9xY" class="mainVideo point wide"></iframe>
-
-        <section class="videoDescription">
-          <h1 class="title">
-            Alien scale
-          </h1>
-          <div class="flex">
-            <div class="user-photo point">
-              <img src="images/user-photo.jpg" alt="User Photo" />
+          <section class="videoDescription">
+            <h1 class="title">
+              What Do Alien Civilizations Look Like? The Kardashev Scale
+            </h1>
+            <div class="actions flex">
+              <p class="views">1.020.666 views · Feb 27, 2014</p>
+              <div>
+                <i class="fas fa-thumbs-up point"></i><span>811</span
+                ><i class="fas fa-thumbs-down point"></i><span>20</span>
+                <i class="fas fa-share point"></i><span>Share</span>
+                <i class="fas fa-plus point"></i> <span>Save</span>
+                <i class="fas fa-ellipsis-h point"></i>
+              </div>
             </div>
-            <div class="cont">
-              <div class="info-user">
-                <h2 class="user-name point">
-                  Microverse Student
-                </h2>
-                <div class="subs">
-                  <button class="subscribe point">
-                    <i class="fab fa-youtube"></i> Subscribe</button><span class="button-counter">456</span>
+            <hr />
+
+            <div class="flex">
+              <div class="cont wide">
+                <div class="flex">
+                  <div class="user-photo point">
+                    <img src="images/user-photo.jpg" alt="User Photo" />
+                  </div>
+                  <div class="channelName">
+                    <h2 class="user-name point">
+                      Microverse Student
+                      <i class="fas fa-check-circle"></i>
+                    </h2>
+                    <span>12.5M subscribers</span>
+                  </div>
+                </div>
+                <div>
+                  <button class="subscribe">Subscribe</button
+                  ><i class="far fa-bell"></i>
                 </div>
               </div>
-              <div class="flex">
-                <p>1.020.666 views</p>
-              </div>
-            </div>
-          </div>
-          <hr />
-          <section class="actions flex">
-            <div class="lefties">
-              <i class="fas fa-plus point"></i> <span>Add to</span>
-              <i class="fas fa-share point"></i><span>Share</span><i
-                class="fas fa-ellipsis-h point"></i><span>More</span>
-            </div>
-            <div class="righties">
-              <i class="fas fa-thumbs-up point"></i><span>811</span><i
-                class="fas fa-thumbs-down point"></i><span>2</span>
             </div>
           </section>
         </section>
-      </section>
+
 
       <section class="articles wide">
         <div class="content">
-          <p class="date">Published on Feb 27, 2014</p>
           <p class="info">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            doloremque a vero necessitatibus repellat voluptatum, omnis maxime
-            velit eos, expedita reprehenderit magni facere perspiciatis, et
-            veritatis beatae distinctio ratione at labore voluptatem?
-            Molestiae voluptates fugit, qui mollitia doloribus voluptate odio
-            nesciunt, fuga magni ad velit maiores, esse enim optio possimus
-            delectus reiciendis quaerat pariatur impedit explicabo aliquid
-            dignissimos numquam? Voluptate, culpa voluptatem aspernatur unde
-            aliquam facere recusandae, in ex doloremque iusto id. Optio
-            officia, neque expedita dolore, eos dignissimos cupiditate iste
-            numquam ducimus eum molestias, quasi animi qui? Officiis quidem
-            velit ab
+            You can find our beautiful education posters, useful notebooks and
+            cozy sweaters in our shop now:<br />
+            <a href="#">https://shop.kurzgesagt.org </a>
           </p>
-          <hr />
           <p class="showMore point">SHOW MORE</p>
+          <hr />
         </div>
       </section>
+
       <!-- Comments Section -->
       <section class="comments-section wide">
         <div class="comments">
@@ -153,182 +164,237 @@
                 <div class="comment-thumbs">
                   <i class="fas fa-thumbs-up"><span>811</span></i>
                   <i class="fas fa-thumbs-down"><span class="rep">REPLAY</span></i>
+
+        
+        
+
                 </div>
               </div>
             </div>
           </div>
+        </section>
+      </main>
+      <aside class="sidebar">
+        <div class="asideTop flex">
+          <span class="UpNext">Up next</span>
+          <div class="lefters flex">
+            <span class="autoplay">Autoplay</span>
+            <i class="fas fa-info-circle point"></i
+            ><i class="fas fa-toggle-on"></i>
+          </div>
         </div>
-      </section>
-    </main>
-    <aside class="sidebar">
-      <div class="asideTop flex">
-        <span class="UpNext">Up next</span>
-        <div class="lefters flex">
-          <span class="autoplay">Autoplay</span>
-          <i class="fas fa-info-circle point"></i><i class="fas fa-toggle-on"></i>
+        <div class="grid-container wide">
+          <div class="grid-item">
+            <img
+              class="img-video point"
+              src="./images/2020-08-12.png"
+              alt="Why to use vue"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">Why to use vue</p>
+            <p class="video-chanel">Coding Tech</p>
+            <p class="video-views">120.990 views</p>
+          </div>
         </div>
-      </div>
-      <div class="grid-container wide">
-        <div class="grid-item">
-          <img class="img-video point" src="./images/2020-08-12.png" alt="Why to use vue" />
+        <hr style="width: 88%; text-align: left; color: lightgray;" />
+        <div class="grid-container wide">
+          <div class="grid-item">
+            <img
+              class="img-video point"
+              src="./images/video1.jfif"
+              alt="Contributing to Open Source Part II: The Real Way"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">
+              Contributing to Open Source Part II: The Real Way
+            </p>
+            <p class="video-chanel">The Odin Project</p>
+            <p class="video-views">30.890 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video2.jfif"
+              alt="How to Get a Job at the Big 4 - Amazon, Facebook, Google &
+              Microsoft' by Sean Lee"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">
+              'How to Get a Job at the Big 4 - Amazon, Facebook, Google &
+              Microsoft' by Sean Lee
+            </p>
+            <p class="video-chanel">imtiana</p>
+            <p class="video-views">12.500 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video3.jfif"
+              alt="Programming in Visual Basic .Net How to Connect Access Database to
+              VB.Net"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">
+              Programming in Visual Basic .Net How to Connect Access Database to
+              VB.Net
+            </p>
+            <p class="video-chanel">iBasskung</p>
+            <p class="video-views">88.654 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video4.jfif"
+              alt="REST API concepts and examples"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">REST API concepts and examples</p>
+            <p class="video-chanel">Web Concepts</p>
+            <p class="video-views">55.489 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video5.jfif"
+              alt="GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A
+              Case Study for Entrepreneurs"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">
+              GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A
+              Case Study for Entrepreneurs
+            </p>
+            <p class="video-chanel">Valiutainment</p>
+            <p class="video-views">99.682 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video6.jfif"
+              alt="How to create a 3D Terrain with Google Maps and height maps in
+              Photoshop - 3D Map Generator Terrain"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">
+              How to create a 3D Terrain with Google Maps and height maps in
+              Photoshop - 3D Map Generator Terrain
+            </p>
+            <p class="video-chanel">Orange Box CEO</p>
+            <p class="video-views">987.123 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video7.jpg"
+              alt="Git and GitHub pull request"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">Git and GitHub pull request</p>
+            <p class="video-chanel">Codecourse</p>
+            <p class="video-views">120.990 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video8.jpg"
+              alt="How to create a 3D Terrain with Google Maps ... Photoshop - 3D Map
+              Generator Terrain"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">
+              How to create a 3D Terrain with Google Maps ... Photoshop - 3D Map
+              Generator Terrain
+            </p>
+            <p class="video-chanel">Coding Tech</p>
+            <p class="video-views">852.951 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video9.jpg"
+              alt="How to learn anything... fast"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">How to learn anything... fast</p>
+            <p class="video-chanel">The RSA</p>
+            <p class="video-views">872.753 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video10.jpg"
+              alt="Why I left my jod at Google"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">Why I left my jod at Google</p>
+            <p class="video-chanel">Techlead</p>
+            <p class="video-views">1.324.869 views</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="img-video"
+              src="./images/video11.jpg"
+              alt="Top signs of inexperienced programmers"
+            />
+          </div>
+          <div class="grid-item video-summary">
+            <p class="video-title">Top signs of inexperienced programmers</p>
+            <p class="video-chanel">Techlead</p>
+            <p class="video-views">120.990 views</p>
+          </div>
         </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">Why to use vue</p>
-          <p class="video-chanel">Coding Tech</p>
-          <p class="video-views">120.990 views</p>
-        </div>
-      </div>
-      <hr style="width: 88%; text-align: left; color: lightgray;" />
-      <div class="grid-container wide">
-        <div class="grid-item">
-          <img class="img-video point" src="./images/video1.jfif"
-            alt="Contributing to Open Source Part II: The Real Way" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">
-            Contributing to Open Source Part II: The Real Way
-          </p>
-          <p class="video-chanel">The Odin Project</p>
-          <p class="video-views">30.890 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video2.jfif" alt="How to Get a Job at the Big 4 - Amazon, Facebook, Google &
-              Microsoft' by Sean Lee" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">
-            'How to Get a Job at the Big 4 - Amazon, Facebook, Google &
-            Microsoft' by Sean Lee
-          </p>
-          <p class="video-chanel">imtiana</p>
-          <p class="video-views">12.500 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video3.jfif" alt="Programming in Visual Basic .Net How to Connect Access Database to
-              VB.Net" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">
-            Programming in Visual Basic .Net How to Connect Access Database to
-            VB.Net
-          </p>
-          <p class="video-chanel">iBasskung</p>
-          <p class="video-views">88.654 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video4.jfif" alt="REST API concepts and examples" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">REST API concepts and examples</p>
-          <p class="video-chanel">Web Concepts</p>
-          <p class="video-views">55.489 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video5.jfif" alt="GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A
-              Case Study for Entrepreneurs" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">
-            GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A
-            Case Study for Entrepreneurs
-          </p>
-          <p class="video-chanel">Valiutainment</p>
-          <p class="video-views">99.682 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video6.jfif" alt="How to create a 3D Terrain with Google Maps and height maps in
-              Photoshop - 3D Map Generator Terrain" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">
-            How to create a 3D Terrain with Google Maps and height maps in
-            Photoshop - 3D Map Generator Terrain
-          </p>
-          <p class="video-chanel">Orange Box CEO</p>
-          <p class="video-views">987.123 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video7.jpg" alt="Git and GitHub pull request" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">Git and GitHub pull request</p>
-          <p class="video-chanel">Codecourse</p>
-          <p class="video-views">120.990 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video8.jpg" alt="How to create a 3D Terrain with Google Maps ... Photoshop - 3D Map
-              Generator Terrain" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">
-            How to create a 3D Terrain with Google Maps ... Photoshop - 3D Map
-            Generator Terrain
-          </p>
-          <p class="video-chanel">Coding Tech</p>
-          <p class="video-views">852.951 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video9.jpg" alt="How to learn anything... fast" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">How to learn anything... fast</p>
-          <p class="video-chanel">The RSA</p>
-          <p class="video-views">872.753 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video10.jpg" alt="Why I left my jod at Google" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">Why I left my jod at Google</p>
-          <p class="video-chanel">Techlead</p>
-          <p class="video-views">1.324.869 views</p>
-        </div>
-        <div class="grid-item">
-          <img class="img-video" src="./images/video11.jpg" alt="Top signs of inexperienced programmers" />
-        </div>
-        <div class="grid-item video-summary">
-          <p class="video-title">Top signs of inexperienced programmers</p>
-          <p class="video-chanel">Techlead</p>
-          <p class="video-views">120.990 views</p>
-        </div>
-      </div>
-      <hr style="width: 88%; text-align: left; color: lightgray;" />
-      <p class="showMoreAside">SHOW MORE</p>
-    </aside>
-  </div>
- 
-  <br /><br />
-  <footer class="wide">
-    <div class="footer-icons flex">
-      <img class="logo-footer" src="./images/youtube_logo.png" alt="Youtube logo" />
-      <button>
-        <i class="fas fa-user-alt"></i><i class="fas fa-question-circle"></i> Language: English
-      </button>
-      <button>Location: Netherlands</button>
-      <button>Restricted Mode: Off</button>
-      <button><i class="fas fa-hourglass-end"></i> History</button>
-      <button><i class="fas fa-question-circle"></i>Help</button>
+        <hr style="width: 88%; text-align: left; color: lightgray;" />
+        <p class="showMoreAside">SHOW MORE</p>
+      </aside>
     </div>
-    <hr style="width: 93%; text-align: left; color: lightgray;" />
-    <nav class="footer-nav">
-      <ul>
-        <li>About</li>
-        <li>Press</li>
-        <li>Copyright</li>
-        <li>Creators</li>
-        <li>Advertise</li>
-        <li>Developers</li>
-      </ul>
-    </nav>
-    <nav class="footer-nav-2">
-      <ul>
-        <li>Terms</li>
-        <li>Privacy</li>
-        <li>Policy & Safety</li>
-        <li>Test new features</li>
-      </ul>
-    </nav>
-  </footer>
-</body>
 
+    <br /><br />
+    <footer class="wide">
+      <div class="footer-icons flex">
+        <img
+          class="logo-footer"
+          src="./images/youtube_logo.png"
+          alt="Youtube logo"
+        />
+        <button>
+          <i class="fas fa-user-alt"></i
+          ><i class="fas fa-question-circle"></i> Language: English
+        </button>
+        <button>Location: Netherlands</button>
+        <button>Restricted Mode: Off</button>
+        <button><i class="fas fa-hourglass-end"></i> History</button>
+        <button><i class="fas fa-question-circle"></i>Help</button>
+      </div>
+      <hr style="width: 93%; text-align: left; color: lightgray;" />
+      <nav class="footer-nav">
+        <ul>
+          <li>About</li>
+          <li>Press</li>
+          <li>Copyright</li>
+          <li>Creators</li>
+          <li>Advertise</li>
+          <li>Developers</li>
+        </ul>
+      </nav>
+      <nav class="footer-nav-2">
+        <ul>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Policy & Safety</li>
+          <li>Test new features</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

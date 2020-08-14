@@ -23,13 +23,13 @@
   <body>
     <nav class="navbar">
       <div class="container-nav">
-        <div class="toggle">
+        <div class="toggle point">
           <i
             class="fas fa-bars"
             style="font-size: 25px; margin-top: 5px; color: #808080;"
           ></i>
           <img
-            class="logo-img"
+            class="logo-img point"
             src="./images/youtube_logo.png"
             alt="Youtube logo"
           />
@@ -37,7 +37,7 @@
         <div class="search-form">
           <form action="search" class="search">
             <input type="text" placeholder="Search" />
-            <button type="submit">
+            <button type="submit point">
               <i
                 class="fas fa-search"
                 style="font-size: 20px; color: #a7a7a7;"
@@ -45,10 +45,12 @@
             </button>
           </form>
         </div>
-        <div class="upload-button">
+        <div class="upload-button point">
           <i class="fas fa-upload" style="font-size: 25px; color: #808080;"></i>
         </div>
-        <div class="sign-in"><button class="sign-in">Sign in</button></div>
+        <div class="sign-in point">
+          <button class="sign-in">Sign in</button>
+        </div>
       </div>
     </nav>
     <div class="cont-main">
@@ -56,49 +58,49 @@
         <section class="container">
           <iframe
             src="https://www.youtube.com/embed/rhFK5_Nx9xY"
-            class="mainVideo"
+            class="mainVideo point wide"
           ></iframe>
 
           <section class="videoDescription">
             <h1 class="title">
               Alien scale
             </h1>
-            <div class="user">
-              <div class="user-photo">
+            <div class="flex">
+              <div class="user-photo point">
                 <img src="images/user-photo.jpg" alt="User Photo" />
               </div>
               <div class="cont">
                 <div class="info-user">
-                  <h2 class="user-name">
+                  <h2 class="user-name point">
                     Microverse Student
                   </h2>
                   <div class="subs">
-                    <button class="subscribe">
+                    <button class="subscribe point">
                       <i class="fab fa-youtube"></i> Subscribe</button
                     ><span class="button-counter">456</span>
                   </div>
                 </div>
-                <div class="views">
+                <div class="flex">
                   <p>1.020.666 views</p>
                 </div>
               </div>
             </div>
             <hr />
-            <section class="actions">
+            <section class="actions flex">
               <div class="lefties">
-                <i class="fas fa-plus"></i> <span>Add to</span>
-                <i class="fas fa-share"></i><span>Share</span
-                ><i class="fas fa-ellipsis-h"></i><span>More</span>
+                <i class="fas fa-plus point"></i> <span>Add to</span>
+                <i class="fas fa-share point"></i><span>Share</span
+                ><i class="fas fa-ellipsis-h point"></i><span>More</span>
               </div>
               <div class="righties">
-                <i class="fas fa-thumbs-up"></i><span>811</span
-                ><i class="fas fa-thumbs-down"></i><span>2</span>
+                <i class="fas fa-thumbs-up point"></i><span>811</span
+                ><i class="fas fa-thumbs-down point"></i><span>2</span>
               </div>
             </section>
           </section>
         </section>
 
-        <section class="articles">
+        <section class="articles wide">
           <div class="content">
             <p class="date">Published on Feb 27, 2014</p>
             <p class="info">
@@ -116,32 +118,33 @@
               velit ab
             </p>
             <hr />
-            <p class="showMore">SHOW MORE</p>
+            <p class="showMore point">SHOW MORE</p>
           </div>
         </section>
         <!-- Comments Section -->
-        <section class="loading">
+        <section class="loading wide">
           <div class="comments">
             <div class="comments-counter">
               <div class="comments-number">22,295 Comments</div>
-              <div class="comments-sortby"> SORT BY</div>
+              <div class="comments-sortby">SORT BY</div>
             </div>
             <div class="comments-sortby"></div>
           </div>
         </section>
       </main>
       <aside class="sidebar">
-        <div class="asideTop">
+        <div class="asideTop flex">
           <span class="UpNext">Up next</span>
-          <div class="lefters">
+          <div class="lefters flex">
             <span class="autoplay">Autoplay</span>
-            <i class="fas fa-info-circle"></i><i class="fas fa-toggle-on"></i>
+            <i class="fas fa-info-circle point"></i
+            ><i class="fas fa-toggle-on"></i>
           </div>
         </div>
-        <div class="grid-container">
+        <div class="grid-container wide">
           <div class="grid-item">
             <img
-              class="img-video"
+              class="img-video point"
               src="./images/2020-08-12.png"
               alt="Why to use vue"
             />
@@ -153,10 +156,10 @@
           </div>
         </div>
         <hr style="width: 88%; text-align: left; color: lightgray;" />
-        <div class="grid-container">
+        <div class="grid-container wide">
           <div class="grid-item">
             <img
-              class="img-video"
+              class="img-video point"
               src="./images/video1.jfif"
               alt="Contributing to Open Source Part II: The Real Way"
             />
@@ -314,8 +317,8 @@
       </aside>
     </div>
     <br /><br />
-    <footer>
-      <div class="footer-icons">
+    <footer class="wide">
+      <div class="footer-icons flex">
         <img
           class="logo-footer"
           src="./images/youtube_logo.png"

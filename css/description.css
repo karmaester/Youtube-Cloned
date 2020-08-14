@@ -1,6 +1,5 @@
 .articles {
   background-color: white;
-  width: 100%;
   float: left;
   margin-top: 15px;
   height: auto;
@@ -30,7 +29,6 @@
 
 .loading {
   background-color: white;
-  width: 100%;
   float: left;
   margin-top: 15px;
   height: auto;

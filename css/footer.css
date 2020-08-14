@@ -1,6 +1,5 @@
 footer {
   display: inline-block;
-  width: 100%;
   background-color: white;
   flex-direction: column;
   padding-top: 17px;
@@ -8,7 +7,6 @@ footer {
 }
 .footer-icons {
   padding: 15px 65px;
-  display: flex;
   align-items: center;
   width: 85%;
   justify-content: space-between;
@@ -21,7 +19,6 @@ footer {
   margin-right: 2%;
   font-size: 14px;
   padding: 0 27px;
-  cursor: pointer;
   background-color: #f8f8f8;
   border: 1px solid rgb(185, 184, 184);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 4px 0 rgba(0, 0, 0, 0.19);
@@ -33,7 +30,6 @@ footer {
 
 .logo-footer {
   width: 15%;
-  cursor: pointer;
 }
 
 .footer-nav,
@@ -43,9 +39,7 @@ footer {
 .footer-nav ul li {
   display: inline-block;
   margin-right: 10px;
-  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
   font-size: 16px;
-  cursor: pointer;
 }
 .footer-nav-2 ul {
   margin-top: -5px;
@@ -54,7 +48,5 @@ footer {
   display: inline-block;
   color: gray;
   margin-right: 10px;
-  font-family: "Noto Sans JP", Roboto, arial, sans-serif;
   font-size: 15px;
-  cursor: pointer;
 }

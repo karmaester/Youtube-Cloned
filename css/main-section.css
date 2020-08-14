@@ -36,7 +36,8 @@ h1.title {
   font-weight: 500;
   color: #000000;
   padding-top: 11px;
-  margin-top: 4px;
+  margin-top: -4px;
+  margin-bottom: 1px;
 }
 
 .cont {

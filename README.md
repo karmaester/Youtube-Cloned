@@ -4,8 +4,8 @@
 
 > Made as the first HTML/CSS project in the Microverse curriculum
 
-![screenshot](./screenshot.png)
 
+![screenshot](./screenshot.png)
 
 
 ## Built With

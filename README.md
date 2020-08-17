@@ -4,9 +4,9 @@
 
 > Made as the first HTML/CSS project in the Microverse curriculum
 
+
 ![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
